@@ -1,0 +1,10 @@
+train  = /cvlabdata1/cvlab/datasets_kgerard/speed/full_train_paths_to_img.txt
+valid  = /cvlabdata1/cvlab/datasets_kgerard/speed/valid_train_paths_to_img.txt
+
+names = data/voc.names
+cfgfile = cfg/satelitte_louis.cfg
+logdir = logs_kube
+
+startepoch = 0
+num_workers = 0
+gpus  = 1

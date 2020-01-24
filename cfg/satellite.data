@@ -1,0 +1,10 @@
+train  = /cvlabdata1/cvlab/datasets_kgerard/speed/full_train_paths_to_img.txt
+valid  = /cvlabdata1/cvlab/datasets_kgerard/speed/valid_train_paths_to_img.txt
+
+names = data/voc.names
+cfgfile = cfg/satellite_louis.cfg
+logdir = louis_logs_bnpruning_lr1e-5_fromzero_rho1e-6
+
+startepoch = 0
+num_workers = 4
+gpus  = 2,3
